@@ -23,7 +23,7 @@
                 <version>1.4</version>
 
                 <configuration>
-                    <nodeVersion>v7.9.0</nodeVersion>
+                    <nodeVersion>v8.6.0</nodeVersion>
                 </configuration>
                 <executions>
                     <execution>
@@ -59,12 +59,5 @@
 
             </plugin>
         </plugins>
-
     </build>
-
-    <dependencies>
-
-
-    </dependencies>
-
 </project>

@@ -1,0 +1,3 @@
+export const ROLE_BANK_TELLER = 'ROLE_BANK_TELLER';
+export const ROLE_BANK_AUDIT = 'ROLE_BANK_AUDIT';
+export const ROLE_SOKK = 'ROLE_SOKK';

@@ -1,0 +1,40 @@
+let path = require('path');
+let webpack = require('webpack');
+
+let b = path.join(__dirname, 'target', 'classes', 'META-INF', 'resources');
+
+const paths = {
+  build: b,
+  static: path.join(b, 'static'),
+  srcJavascript: path.join(__dirname, 'src', 'main', 'javascript'),
+  srcResources: path.join(__dirname, 'src', 'main', 'resources'),
+};
+
+module.exports = {
+  entry: {
+    javascript: path.join(paths.srcJavascript, 'index.jsx'),
+
+  },
+  output: {
+    path: paths.static,
+    filename: 'bundle.js',
+    //publicPath: '/static/',
+  },
+  devtool: 'inline-source-map',
+  module: {
+    rules: [
+      {
+        test: /\.jsx?$/,
+        loader: ['react-hot-loader', 'babel-loader'],
+        include: paths.srcJavascript,
+      }
+    ]
+  },
+  plugins: [
+    new webpack.EnvironmentPlugin({
+      'NODE_ENV': 'development',
+      'EFS_REST_URL': 'http://localhost:8080/efs-web/rest',
+    }),
+    new webpack.NamedModulesPlugin(),
+  ]
+};

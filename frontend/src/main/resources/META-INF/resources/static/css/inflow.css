@@ -1,0 +1,58 @@
+#inflow-header {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 50px;
+  min-width: 800px;
+}
+
+#inflow-header-img {
+  width: 64px;
+  height: 64px;
+}
+
+#inflow-header-text {
+  margin-left: 30px;
+}
+
+.margin-10 {
+  margin: 10px;
+}
+
+.margin-top-10 {
+  margin-top: 10px;
+}
+
+.margin-top-30 {
+    margin-top: 30px;
+}
+
+.margin-top-7 {
+    margin-top: 7px;
+}
+
+div.separated{
+  margin-top: 12px;
+  border-top: 1px solid lightgray;
+  padding-top: 12px;
+}
+
+.hidden {
+  display: none
+}
+
+.table > tbody > tr > td.vertical-align-middle {
+  vertical-align: middle;
+}
+
+.align-content-middle {
+  display: flex;
+  align-items: center;
+}
+
+.scale-2 {
+  transform: scale(1.5);
+}
+
+.form-group.margin-bottom-0 {
+  margin-bottom: 0px;
+}

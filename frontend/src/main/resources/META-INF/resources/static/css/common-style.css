@@ -1,0 +1,254 @@
+.text-top {
+    vertical-align: text-top;
+}
+
+.vmargin5 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.margin-top-5{
+    margin-top: 5px;
+}
+
+.margin-top-20{
+    margin-top: 20px;
+}
+
+.margin-bottom-5{
+    margin-bottom: 5px;
+}
+
+.width-190 {
+    width: 190px;
+}
+
+.width-140 {
+    width: 140px;
+}
+
+.width-40 {
+    width: 40px;
+}
+
+.width-50 {
+    width: 50px;
+}
+
+.width-150 {
+    width: 150px;
+}
+
+.width-170 {
+    width: 170px;
+}
+
+.width-125 {
+    width: 125px;
+}
+
+.colorRed {
+    color: red;
+}
+
+.width-300 {
+    width: 300px;
+}
+
+.top-10{
+    margin-top:10px;
+}
+
+.inline-flex{
+    display: inline-flex;
+}
+
+.right-button{
+    width: 200px;
+    float: right;
+}
+
+.left-button{
+    width: 200px;
+    float: left;
+}
+
+.bold{
+    font-weight: 600;
+}
+
+span.cash {
+    white-space: nowrap;
+}
+
+.findClient-form-arm>.row{
+    margin-top: 20px;
+}
+
+h2 small{
+    font-size: 50%;
+}
+
+.hidden{
+    display: none;
+}
+
+.money-format{
+    text-align: right;
+}
+
+.organisation-name{
+    text-decoration: underline;
+}
+
+.left-34{
+    margin-left: 34px;
+}
+
+.p-left-34{
+    padding-left: 34px;
+}
+
+.left-10{
+    margin-left: 10px;
+}
+
+.left-9{
+    margin-left: -9px;
+}
+
+.left-18{
+    margin-left: -18px;
+}
+
+
+.horizontal-margin{
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+.middle{
+    vertical-align: middle;
+    align-items: baseline;
+ }
+
+.middle-force{
+    vertical-align: middle !important;
+    align-items: baseline;
+ }
+
+.top-force-cell{
+    display: table-cell;
+    vertical-align: top;
+}
+
+.top-force-flex{
+    display: flex;
+    align-content: flex-start;
+}
+
+td, th{
+    vertical-align: middle !important;
+}
+
+.middle>div{
+    display: table-cell;
+    vertical-align: middle;
+ }
+
+.flex-container{
+    display: flex;
+}
+
+.flex-block{
+
+}
+
+.big-chexbox{
+    height: 16px;
+    width: 16px;
+    cursor: pointer;
+}
+.big-radio{
+    width: 15px;
+    height: 15px;
+}
+
+.big-child-radio > input[type="radio"]{
+    width: 15px;
+    height: 15px;
+}
+
+.left-border{
+    border-left: 1px solid #158cba;
+}
+
+.top-border{
+    border-top: 1px solid #f5f5f5;
+}
+
+.p-top-10{
+    padding-top: 10px;
+}
+
+.radio-label{
+    margin-top: 4px;
+}
+
+.link-style{
+    color: #158cba;
+    cursor: pointer;
+}
+
+.link-style:hover{
+    text-decoration: underline;
+}
+
+.del-row{
+    font-size: 20px;
+    color: grey;
+    cursor: not-allowed;
+}
+
+.del-row-active{
+    font-size: 20px;
+    color: red;
+    cursor: pointer;
+}
+
+.add-row{
+    font-size: 20px;
+    color: grey;
+    cursor: not-allowed;
+}
+
+.add-row-active{
+    font-size: 20px;
+    color: forestgreen;
+    cursor: pointer;
+}
+
+.right{
+    float: right;
+}
+
+.cell-alert-warning{
+    border-radius: 0;
+    border: 2px solid rgb(255, 133, 27);
+}
+
+.row-alert-info{
+    border-radius: 0;
+    border: 2px solid rgb(117, 202, 235);
+}
+
+.wide{
+    width: 100%;
+}
+
+.btn-primary[disabled]{
+    background-color: #158cba;
+}
+.commission-font{
+    font-size:150%;
+}

@@ -1,0 +1,16 @@
+# Logs
+logs/
+*.log
+npm-debug.log*
+package-lock.json
+
+# Compiled binary addons (http://nodejs.org/api/addons.html)
+build/Release
+
+# Dependency directory
+node_modules/
+node/
+
+# Built app
+/build.js
+/bundle.js

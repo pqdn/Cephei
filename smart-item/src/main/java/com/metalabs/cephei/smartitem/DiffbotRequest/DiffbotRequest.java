@@ -32,9 +32,7 @@ public class DiffbotRequest extends SmartItemRequest{
             return;
         }
 
-        SmartItemType smartItemType = DiffbotTypesAdapter.adapt(classified.getType());
-
-        smartItem = new SmartItem(smartItemType, classified.toString());
+        smartItem = DiffbotAdapter.adapt(classified);
     }
 
 }

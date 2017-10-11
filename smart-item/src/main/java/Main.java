@@ -9,11 +9,9 @@ public class Main {
         try {
             request = new DiffbotRequest("https://www.kinopoisk.ru/photostory/3051123/");
             request.execute();
+            System.out.println(request.getSmartItem().getJsonItem());
         }catch(DiffbotRequestException e){
             System.out.println(e.getMessage());
         }
-
-
-        System.out.println(request.);
     }
 }

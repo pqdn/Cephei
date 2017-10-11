@@ -6,15 +6,16 @@ import java.util.logging.Logger;
 abstract public class SmartItemRequest {
     private static final Logger LOGGER = Logger.getLogger(SmartItemRequest.class.getName());
 
-    private SmartItem smartItem;
-    private String url;
-    private List<SmartItem> smartItems;
+    protected SmartItem smartItem;
+    protected String url;
+    protected List<SmartItem> smartItems;
 
-    SmartItemRequest(String url){
+    public SmartItemRequest(String url){
         this.url = url;
 
 //        System.out.println("Выполнился запрос");
     }
+
 
     public abstract void execute();
 }

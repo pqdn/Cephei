@@ -49,16 +49,26 @@
 
 
     <dependencies>
-        <!-- https://mvnrepository.com/artifact/org.telegram/telegrambots -->
         <dependency>
-            <!--<groupId>com.diffbot</groupId>-->
-            <!--<artifactId>diffbot-java</artifactId>-->
-            <!--<version>1.0-SNAPSHOT</version>-->
             <groupId>com.syncthemall</groupId>
             <artifactId>diffbot-java-sdk</artifactId>
             <version>1.2.2</version>
         </dependency>
-
+        <dependency>
+            <groupId>com.google.http-client</groupId>
+            <artifactId>google-http-client-appengine</artifactId>
+            <version>1.17.0-rc</version>
+        </dependency>
+        <dependency>
+            <groupId>com.google.http-client</groupId>
+            <artifactId>google-http-client-gson</artifactId>
+            <version>1.17.0-rc</version>
+        </dependency>
+        <dependency>
+            <groupId>com.google.http-client</groupId>
+            <artifactId>google-http-client-jackson2</artifactId>
+            <version>1.17.0-rc</version>
+        </dependency>
     </dependencies>
 
 </project>

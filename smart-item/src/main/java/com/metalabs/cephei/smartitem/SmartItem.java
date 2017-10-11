@@ -14,7 +14,7 @@ public class SmartItem {
     private SmartItemType type = SmartItemType.UNKNOWN;
 
 
-    SmartItem(SmartItemType type, String json){
+    public SmartItem(SmartItemType type, String json){
         this.type = type;
         this.json = json;
     }

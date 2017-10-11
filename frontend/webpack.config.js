@@ -1,7 +1,7 @@
 let path = require('path');
 let webpack = require('webpack');
 
-let b = path.join(__dirname, 'target', 'classes', 'META-INF', 'resources');
+let b = path.join(__dirname, 'target', 'classes');
 
 const paths = {
   build: b,
@@ -33,7 +33,7 @@ module.exports = {
   plugins: [
     new webpack.EnvironmentPlugin({
       'NODE_ENV': 'development',
-      'EFS_REST_URL': 'http://localhost:8080/efs-web/rest',
+      'EFS_REST_URL': 'http://localhost:8080/rest',
     }),
     new webpack.NamedModulesPlugin(),
   ]

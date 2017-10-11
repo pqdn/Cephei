@@ -17,4 +17,16 @@ abstract public class SmartItemRequest {
     }
 
     public abstract void execute();
+
+    public String getUrl() {
+        return url;
+    }
+
+    public void setUrl(String url) {
+        this.url = url;
+    }
+
+    public SmartItem getSmartItem() {
+        return smartItem;
+    }
 }

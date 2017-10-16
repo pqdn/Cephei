@@ -4,6 +4,11 @@ language: java
 jdk:
   - oraclejdk8
 
+notifications:
+  slack:
+    on_success: never
+    on_failure: never
+
 before_script:
   - ./mvnw install -DskipTests=true -Dmaven.javadoc.skip=true -B -V
 

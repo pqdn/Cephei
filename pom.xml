@@ -9,7 +9,6 @@
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
 
-    <!-- Inherit defaults from Spring Boot -->
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
@@ -31,7 +30,6 @@
         <spring.version>5.0.0.RELEASE</spring.version>
     </properties>
 
-
     <build>
         <plugins>
             <plugin>
@@ -45,7 +43,6 @@
                     </dependency>
                 </dependencies>
             </plugin>
-
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-checkstyle-plugin</artifactId>
@@ -69,7 +66,6 @@
             </plugin>
         </plugins>
     </build>
-
 
     <dependencies>
         <dependency>

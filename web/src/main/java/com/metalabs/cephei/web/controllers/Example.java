@@ -32,7 +32,7 @@ public class Example {
         return pseudoBotService.findAll();
     }
 
-    class Item{
+    class Item {
         int id;
         String name;
 

@@ -20,8 +20,8 @@ public class SmartItem {
     }
 
     public String getJsonItem() {
-       json = "This is json!!!";
-       return json;
+        json = "This is json!!!";
+        return json;
     }
 
     public SmartItemType getType() {

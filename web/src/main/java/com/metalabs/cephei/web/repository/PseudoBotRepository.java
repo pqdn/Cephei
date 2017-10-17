@@ -9,8 +9,12 @@ import java.util.Optional;
 
 @Repository
 public interface PseudoBotRepository extends JpaRepository<PseudoBot, Integer> {
+
     List<PseudoBot> findAll();
+
     Optional<PseudoBot> findById(Integer id);
+
     PseudoBot save(PseudoBot pseudoBot);
+
     void delete(PseudoBot pseudoBot);
 }

@@ -8,7 +8,10 @@ import java.util.Optional;
 public interface PseudoBotService {
 
     List<PseudoBot> findAll();
+
     Optional<PseudoBot> findById(Integer id);
+
     PseudoBot save(PseudoBot pseudoBot);
+
     void delete(PseudoBot pseudoBot);
 }

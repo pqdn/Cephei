@@ -5,7 +5,6 @@ import com.metalabs.cephei.smartitem.interfaces.SmartItemRequest;
 public class DefaultSmartItemRequest implements SmartItemRequest {
     private String url;
     private String smartItemDescription;
-//    private String smartItem;
 
     public DefaultSmartItemRequest(String url, String smartItemDescription) {
         this.url = url;
@@ -26,9 +25,4 @@ public class DefaultSmartItemRequest implements SmartItemRequest {
                 "  }\n" +
                 "}");
     }
-
-//    @Override
-//    public String getSmartItem() {
-//        return smartItem;
-//    }
 }

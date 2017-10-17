@@ -1,6 +1,6 @@
 package com.metalabs.cephei.smartitem;
 
-import com.metalabs.cephei.smartitem.Attribute.Attribute;
+import com.metalabs.cephei.smartitem.attribute.Attribute;
 
 import java.util.Map;
 import java.util.Set;
@@ -8,20 +8,19 @@ import java.util.Set;
 public class SmartItem {
     private String json;
     private String url;
-//    private List<String> attributeNames;
+
     private Map<String, Attribute> attrbutes;
 
     private SmartItemType type = SmartItemType.UNKNOWN;
 
 
-    SmartItem(SmartItemType type, String json){
+    SmartItem(SmartItemType type, String json) {
         this.type = type;
         this.json = json;
     }
 
     public String getJsonItem() {
         return new String("This is json!!!");
-//        return json;
     }
 
     public SmartItemType getType() {
@@ -40,11 +39,11 @@ public class SmartItem {
         this.url = url;
     }
 
-    Attribute getAttribute(String name){
+    Attribute getAttribute(String name) {
         return attrbutes.get(name);
     }
 
-    Set<String> getAttributeNames(){
+    Set<String> getAttributeNames() {
         return attrbutes.keySet();
     }
 }

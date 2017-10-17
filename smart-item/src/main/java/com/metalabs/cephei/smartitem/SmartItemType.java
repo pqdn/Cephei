@@ -16,13 +16,15 @@ public class SmartItemType {
     public static final SmartItemType PRODUCT = new SmartItemType("Product", 200);
     public static final SmartItemType ARTICLE = new SmartItemType("Article", 300);
 
-    private SmartItemType(String name, int value){
+    private SmartItemType(String name, int value) {
         this.name = name;
         this.value = value;
     }
 
     @Override
-    public String toString(){return name;}
+    public String toString() {
+        return name;
+    }
 
     @Override
     public int hashCode() {
@@ -31,8 +33,9 @@ public class SmartItemType {
 
     @Override
     public boolean equals(Object obj) {
-        if (this == obj)
+        if (this == obj) {
             return true;
+        }
 
         try {
             SmartItemType smtObj = (SmartItemType)obj;

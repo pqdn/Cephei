@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "cross-env NODE_ENV=development webpack-dev-server -d --inline --hot --content-base src/main/resources/META-INF/resources/static",
+    "dev": "cross-env NODE_ENV=development webpack-dev-server -d --inline --hot --content-base src/main/resources/static",
     "build": "cross-env NODE_ENV=production EFS_REST_URL='../rest' webpack -p",
     "lint": "eslint src"
   },

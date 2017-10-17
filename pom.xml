@@ -57,12 +57,6 @@
                 <configuration>
                     <configLocation>checkstyle.xml</configLocation>
                 </configuration>
-                <executions>
-                    <execution>
-                        <phase>validate</phase>
-                        <goals><goal>check</goal></goals>
-                    </execution>
-                </executions>
             </plugin>
         </plugins>
     </build>

@@ -2,6 +2,8 @@ package com.metalabs.cephei.web.model;
 
 import javax.persistence.*;
 
+import java.util.List;
+
 @Entity
 @Table(name = "pseudo_bot")
 public class PseudoBot {

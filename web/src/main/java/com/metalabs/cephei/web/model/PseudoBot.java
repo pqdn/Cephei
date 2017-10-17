@@ -1,6 +1,5 @@
 package com.metalabs.cephei.web.model;
 
-
 import javax.persistence.*;
 
 @Entity
@@ -11,7 +10,6 @@ public class PseudoBot {
     @GeneratedValue
     private int id;
 
-    //VERY-VERY long text
     @Column(name = "description")
     private String description;
 

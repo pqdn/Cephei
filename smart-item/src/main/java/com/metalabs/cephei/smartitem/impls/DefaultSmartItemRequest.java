@@ -13,7 +13,9 @@ public class DefaultSmartItemRequest implements SmartItemRequest {
 
     @Override
     public String execute() {
-        return new String("{\n" +
+        url = url;
+        smartItemDescription = smartItemDescription;
+        return "{\n" +
                 "  \"type\": \"product\",\n" +
                 "  \"attributes\": {\n" +
                 "    \"name\": \"iphone 8\",\n" +
@@ -23,6 +25,6 @@ public class DefaultSmartItemRequest implements SmartItemRequest {
                 "      \"image\": \"https://biggeek.ru/files/products/iphone8-spgray-select-2017_av2.435x435.png?ce33550514f746732a8b1b76d039e487\"\n" +
                 "    }\n" +
                 "  }\n" +
-                "}");
+                "}";
     }
 }

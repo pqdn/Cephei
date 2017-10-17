@@ -39,7 +39,7 @@ public class SmartItemType {
 
         try {
             SmartItemType smtObj = (SmartItemType)obj;
-            return (smtObj.value == this.value);
+            return smtObj.value == this.value;
         } catch (Exception ex) {
             return false;
         }

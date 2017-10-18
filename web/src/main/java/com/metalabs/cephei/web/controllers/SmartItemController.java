@@ -15,8 +15,9 @@ public class SmartItemController {
 
     @RequestMapping("/test")
     public void test(String str1, String str2) {
-        System.out.println(str1);
-        System.out.println(str2);
+        System.out.println("str1=" + str1);
+        System.out.println("str1=" + str2);
+        System.out.println("smart object: " + smartItemRequestFactory);
     }
 
     @RequestMapping("/request")

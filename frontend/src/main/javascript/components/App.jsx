@@ -22,10 +22,10 @@ export default class App extends Component {
   };
 
   componentDidMount() {
-    setInterval(
-      this.props.actions.updateCurrentDT,
-      30000,
-    )
+    // setInterval(
+    //   this.props.actions.updateCurrentDT,
+    //   30000,
+    // )
   }
 
   render() {

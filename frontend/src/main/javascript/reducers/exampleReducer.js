@@ -8,7 +8,7 @@ const initialState = {
   }
 };
 
-export const efsApp = (state = initialState, action) => {
+export default (state = initialState, action) => {
   switch (action.type) {
     case types.GET_USER_INFO + types.SUCCESS_POSTFIX:
       console.log(types.GET_USER_INFO + " выполнился успешно");

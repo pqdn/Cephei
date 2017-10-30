@@ -1,9 +1,11 @@
 import { combineReducers } from 'redux';
 
-import { efsApp } from './efsApp';
+import exampleReducer from './exampleReducer';
+import diagramReducer from "./diagramReducer";
 
 const rootReducer = combineReducers({
-  efsApp
+    exampleReducer,
+    diagramReducer
 });
 
 export default rootReducer;

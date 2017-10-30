@@ -24,7 +24,7 @@ export default class Navbar extends Component {
           </div>
           <div className="collapse navbar-collapse">
             <ul className="nav navbar-nav navbar-right" id="nav-list">
-              <li> <a href={constants.TAB_CLIENTS_HREF} id={1} className="main-nav-item" eventKey={constants.TAB_CLIENTS} title="menu1">
+              <li> <a href={constants.TAB_CLIENTS_HREF} id={1} className="main-nav-item"  title="menu1">
                 menu1
               </a> </li>
               <li className="dropdown" id={2}>
@@ -33,10 +33,10 @@ export default class Navbar extends Component {
                   <li>
                     <a className="main-nav-item" href={constants.TAB_CATALOG_PKO_HREF} id={2.1}  title="submenu">submenu 1</a>
                   </li>
-                  <li><a className="main-nav-item" href={constants.TAB_CATALOG_RKO_HREF} id={2.2} eventKey={constants.TAB_CATALOG_RKO} title="submenu">submenu 2</a> </li>
+                  <li><a className="main-nav-item" href={constants.TAB_CATALOG_RKO_HREF} id={2.2} title="submenu">submenu 2</a> </li>
                 </ul>
               </li>
-              <li> <a className="main-nav-item" href={constants.TAB_HELP_HREF} id={8} eventKey={constants.TAB_HELP} title="Помощь">?</a> </li>
+              <li> <a className="main-nav-item" href={constants.TAB_HELP_HREF} id={8} title="Помощь">?</a> </li>
             </ul>
           </div>
         </div>

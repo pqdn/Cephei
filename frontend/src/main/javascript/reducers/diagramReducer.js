@@ -1,7 +1,9 @@
 import * as types from '../constants/types';
 
 const initialState = {
-    selectedNodes: {}
+    selectedNodes: {
+
+    }
 };
 
 export default (state = initialState, action) => {

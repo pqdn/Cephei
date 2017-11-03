@@ -23,7 +23,7 @@ import * as actions from '../../../actions/index';
         }
     }
 )
-export default class PlaceEdit  extends Component {
+export default class WorkflowPlace  extends Component {
     constructor(props) {
         super(props);
 
@@ -71,7 +71,7 @@ export default class PlaceEdit  extends Component {
                     let list = this.props.selectedNodes;
                     if(list[node.id] !== undefined){
                         delete list[node.id];
-                        doChange(list);
+                        doChange([...list]);
                     }
                 }
             },
@@ -84,7 +84,7 @@ export default class PlaceEdit  extends Component {
                 }
                 if(!isSelected && list[node.id] !== undefined){
                     delete list[node.id];
-                    doChange(list);
+                    doChange([...list]);
                 }
             }
         };

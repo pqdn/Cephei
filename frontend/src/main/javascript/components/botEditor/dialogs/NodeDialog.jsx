@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { connect } from "react-redux";
-import {Col, Row} from "react-bootstrap";
+import {Col, Panel, Row} from "react-bootstrap";
 
 @connect((state) => {
         return {
@@ -28,24 +28,24 @@ export default class NodeDialog  extends Component {
         let node = this.state.selectNode;
 
         if(node === null){
-            return <div>{"omg dmg"}</div>
+            return <Panel>{"omg dmg"}</Panel>
         }
 
         return (
-            <div className="container-fluid">
-                <Row><Col xsOffset={1}>
+            <Panel header="title" footer="footer">
+                <Row><Col xs={12}>
                     Название: {node.name}
                 </Col></Row>
-                <Row><Col xsOffset={1}>
+                <Row><Col xs={12}>
                     <input type="text" defaultValue={node.name} onChange={e => node.name = e.target.value}/>
                 </Col></Row>
-                <Row><Col xsOffset={1}>
+                <Row><Col xs={12}>
                     Цвет: {node.color}
                 </Col></Row>
-                <Row><Col xsOffset={1}>
+                <Row><Col xs={12}>
                     <input type="text" defaultValue={node.color}  onChange={e => node.color = e.target.value}/>
                 </Col></Row>
-            </div>
+            </Panel>
         );
     }
 

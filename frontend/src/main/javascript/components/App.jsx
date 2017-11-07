@@ -5,6 +5,8 @@ import { connect } from "react-redux";
 import * as PropTypes from 'prop-types';
 import * as actions from '../actions/index';
 import {bindActionCreators} from "redux";
+import '../css/stormDiagram.css';
+import '../css/style.css';
 
 @connect((state) => {
     return {
@@ -22,10 +24,10 @@ export default class App extends Component {
   };
 
   componentDidMount() {
-    setInterval(
-      this.props.actions.updateCurrentDT,
-      30000,
-    )
+    // setInterval(
+    //   this.props.actions.updateCurrentDT,
+    //   30000,
+    // )
   }
 
   render() {

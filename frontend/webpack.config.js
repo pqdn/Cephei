@@ -22,12 +22,17 @@ module.exports = {
   },
   devtool: 'inline-source-map',
   module: {
-    rules: [
-      {
-        test: /\.jsx?$/,
-        loader: ['react-hot-loader', 'babel-loader'],
-        include: paths.srcJavascript,
-      }
+      loaders: [
+        {
+            test: /\.jsx?$/,
+            loader: [
+                'react-hot-loader',
+                'babel-loader'
+            ],
+            include: paths.srcJavascript
+        },
+          { test: /\.css$/, loader: 'style-loader!css-loader'}
+
     ]
   },
   plugins: [

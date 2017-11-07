@@ -7,10 +7,10 @@ export default ()=>{
     return (
         <Panel>
             <Row>
-                <Col xs={2}>
+                <Col xs={2} >
                     <NodeDialog/>
                 </Col>
-                <Col xs={10}>
+                <Col xs={8}>
                     <WorkflowPlace/>
                 </Col>
             </Row>

@@ -45,7 +45,7 @@ const dataServiceGenerator = next => (route, name, req, method, id, blockUI = tr
 
 const dataService = store => next => action => {
 
-  let rootUrl = '../rest';
+  let rootUrl = '/rest';
 
   if (!!process.env.EFS_REST_URL) {
     rootUrl = process.env.EFS_REST_URL;

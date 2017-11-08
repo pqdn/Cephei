@@ -5,6 +5,7 @@
 build/
 bin/
 .idea/
+!.idea/codeStyleSettings.xml
 *.iml
 *.md.html
 .externalToolBuilders

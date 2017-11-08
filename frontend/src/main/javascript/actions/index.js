@@ -10,8 +10,8 @@ export const executeRest = (serviceName, request, id=-1) => {
 };
 
 export const changeSelectedNodes = (nodes) => {
-    return {
-        type: types.CHANGE_SELECTED_NODES,
-        nodes: nodes
-    }
+  return {
+    type: types.CHANGE_SELECTED_NODES,
+    nodes: nodes
+  }
 };

@@ -4,8 +4,8 @@ import exampleReducer from './exampleReducer';
 import diagramReducer from "./diagramReducer";
 
 const rootReducer = combineReducers({
-    exampleReducer,
-    diagramReducer
+  exampleReducer,
+  diagramReducer
 });
 
 export default rootReducer;

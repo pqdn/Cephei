@@ -7,11 +7,11 @@ import PlaceEdit from "./components/botEditor/diagramEdit/WorkflowPlace.jsx";
 import Editor from "./components/botEditor/Editor.jsx";
 
 export const routes = (
-    <div>
-        <Route path='/' component={App}>
-            {/*<IndexRoute component={MainScreen}/>*/}
-            <IndexRoute component={Editor}/>
-            <Route path='place' component={PlaceEdit}/>;
-        </Route>
-    </div>
+  <div>
+    <Route path='/' component={App}>
+      {/*<IndexRoute component={MainScreen}/>*/}
+      <IndexRoute component={Editor}/>
+      <Route path='place' component={PlaceEdit}/>;
+    </Route>
+  </div>
 );

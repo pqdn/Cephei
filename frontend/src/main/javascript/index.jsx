@@ -17,12 +17,12 @@ let store = createStore(
 );
 
 let appRender = ()=>{
-    render(
-        <Provider store={store}>
-            <Router history={hashHistory} routes={routes} />
-        </Provider>,
-        document.getElementById('root')
-    );
+  render(
+    <Provider store={store}>
+      <Router history={hashHistory} routes={routes} />
+    </Provider>,
+    document.getElementById('root')
+  );
 };
 
 appRender();

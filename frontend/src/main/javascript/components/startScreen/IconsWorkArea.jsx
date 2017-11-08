@@ -18,7 +18,6 @@ export default class IconsWorkArea extends Component {
             <Col xs={3}/>
             <Col xs={6}>
               <Thumbnail src="./img/Bender-PNG-Pic.png">{"С блекжетом и шлюхами"}</Thumbnail>
-
             </Col>
           </Row>
         </Grid>

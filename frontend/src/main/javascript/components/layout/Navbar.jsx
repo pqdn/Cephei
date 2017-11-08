@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
-
 import * as constants from '../../constants/constants';
 import {connect} from 'react-redux';
+
 @connect((state) => {
     return {
 
